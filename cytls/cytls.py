@@ -13,7 +13,7 @@ def get(url, headers=None, proxies=None, params=None,cookies=None, timeout=40, h
         headers = {}
     
     if proxies==None:
-        print("请必须带上代理ip!!!")
+        print("Please bring your proxy IP address!!!")
         return
     
     if "http" in proxies:
@@ -51,7 +51,7 @@ def post(url, headers=None, proxies=None, params=None,cookies=None,json=None, da
         headers = {}
     
     if proxies==None:
-        print("请必须带上代理ip!!! 必须https代理且不能有账号密码")
+        print("Please bring your proxy IP address!!!")
         return
     
     if "http" in proxies:
