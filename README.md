@@ -4,7 +4,7 @@
 Use the same as requests.
 The project fully emulates the TLS fingerprint of the browser.
 
-##### Test examples (过CloudFlare)
+##### Test examples (CloudFlare)
 
 ```python
 from cytls import cytls
