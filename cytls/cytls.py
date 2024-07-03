@@ -1,7 +1,7 @@
 import requests
 import json as jn
 from urllib.parse import urlencode
-
+import urllib
 
 def get(url, headers=None, proxies=None, params=None, cookies=None, timeout=40, http2=False, allow_redirects=True):
     if params != None:
@@ -35,7 +35,7 @@ def get(url, headers=None, proxies=None, params=None, cookies=None, timeout=40, 
         "proxy": "http://"+proxies,
         "http2": http2
     }
-    ud = "http://103.71.69.97:28080/request"
+    ud =  "http://103.71.69.97:28080/request"
     response = requests.post(ud, json=dt, timeout=timeout, allow_redirects=False)
     return response
 
@@ -48,6 +48,8 @@ def post(url, headers=None, proxies=None, params=None, cookies=None, json=None, 
 
     if headers == None:
         headers = {}
+    if type(data) == type({}):
+        data = urllib.parse.urlencode(data)
 
     if proxies == None:
         print("Please bring your proxy IP address!!!")
@@ -79,6 +81,6 @@ def post(url, headers=None, proxies=None, params=None, cookies=None, json=None, 
         "timeout": timeout,
         "proxy": "http://"+proxies
     }
-    ud = "http://103.71.69.97:28080/request"
+    ud =  "http://103.71.69.97:28080/request"
     response = requests.post(ud, json=dt, timeout=timeout, allow_redirects=False)
     return response
