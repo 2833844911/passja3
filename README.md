@@ -158,7 +158,7 @@ bash
    Replace
    ud =  "http://103.71.69.97:28080/request"
    with
-   ud =  "http://你的ip:28080/request"
+   ud =  "http://yourip:28080/request"
 9. Normal Usage of the passja3 Project
 
 can see
