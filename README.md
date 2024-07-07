@@ -138,7 +138,7 @@ bash
 
 4. Download the Image (cytlszf.tar)
    Link：https://pan.baidu.com/s/1ccGXTrENTJjuTCVmkgRRBA
-   Access Code：pakk
+   Access Code：o0bf
 5. Loading the Image
    
    
