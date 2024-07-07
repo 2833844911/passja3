@@ -137,8 +137,8 @@ bash
    sudo systemctl start docker
 
 4. Download the Image (cytlszf.tar)
-   Link：https://pan.baidu.com/s/1ccGXTrENTJjuTCVmkgRRBA
-   Access Code：o0bf
+   Link：https://pan.baidu.com/s/1NSEr8Q3SxeUNu7vG6jYZ9w
+   Access Code：lrck
 5. Loading the Image
    
    
