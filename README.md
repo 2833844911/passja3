@@ -103,7 +103,7 @@ Contact email 2833844911@qq.com
    
    First, if there are old versions of Docker installed on your system, you need to uninstall them. Older versions might be referred to as docker or docker-engine. Use the following commands to uninstall:   
    
-bash
+```bash
    sudo yum remove docker \
                    docker-client \
                    docker-client-latest \
@@ -112,45 +112,48 @@ bash
                    docker-latest-logrotate \
                    docker-logrotate \
                    docker-engine
-
+```
 2. Setting Up the Docker Repository
    
    Install necessary packages that will allow yum to use packages from HTTPS sources:
    
    
-bash
+```bash
    sudo yum install -y yum-utils
-
+```
    
    Next, set up the stable repository:
    
    
-bash
+```bash
    sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+
+   sudo yum update -y && sudo yum install -y docker-ce docker-ce-cli containerd.io
+```
 
 3. Starting Docker
    
    After installation, start the Docker service:
    
    
-bash
+```bash
    sudo systemctl start docker
-
+```
 4. Download the Image (cytlszf.tar)
    Link：https://pan.baidu.com/s/1NSEr8Q3SxeUNu7vG6jYZ9w
    Access Code：lrck
 5. Loading the Image
    
    
-bash
+```bash
    docker load -i cytlszf.tar
-
+```
 6. Starting the Container (Opening Port 28080 on the Server)
    
    
-bash
+```bash
    docker run -p 28080:8081 -d cytlszf:latest
-
+```
 7.Download the passja3 Project
    
    Link: [passja3](https://github.com/2833844911/passja3 "to")
