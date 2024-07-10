@@ -11,6 +11,8 @@ def get(url, headers=None, proxies=None, params=None, cookies=None, timeout=40, 
 
     if headers == None:
         headers = {}
+    if cookies != None:
+        headers["Cookie"] = '; '.join([f'{k}={v}' for k, v in cookies.items()])
     for k,v in headers.items():
         if v == None or v == '':
             headers[k] = ' '
@@ -23,8 +25,7 @@ def get(url, headers=None, proxies=None, params=None, cookies=None, timeout=40, 
         proxies = proxies['http'].split('/')[-1].strip()
     if "https" in proxies:
         proxies = proxies['https'].split('/')[-1].strip()
-    if cookies != None:
-        headers["Cookie"] = '; '.join([f'{k}={v}' for k, v in cookies.items()])
+
     if allow_redirects == True:
         cancdx = "1"
     else:
@@ -64,7 +65,8 @@ def post(url, headers=None, proxies=None, params=None, cookies=None, json=None, 
 
     if headers == None:
         headers = {}
-
+    if cookies != None:
+        headers["Cookie"] = '; '.join([f'{k}={v}' for k, v in cookies.items()])
     for k,v in headers.items():
         if v == None or v == '':
             headers[k] = ' '
@@ -80,8 +82,7 @@ def post(url, headers=None, proxies=None, params=None, cookies=None, json=None, 
         proxies = proxies['http'].split('/')[-1].strip()
     if "https" in proxies:
         proxies = proxies['https'].split('/')[-1].strip()
-    if cookies != None:
-        headers["Cookie"] = '; '.join([f'{k}={v}' for k, v in cookies.items()])
+
     postData = ""
     if data != None:
         postData = data
