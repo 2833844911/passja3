@@ -11,6 +11,9 @@ def get(url, headers=None, proxies=None, params=None, cookies=None, timeout=40, 
 
     if headers == None:
         headers = {}
+    for k,v in headers.items():
+        if v == None or v == '':
+            headers[k] = ' '
 
     if proxies == None:
         print("Please bring your proxy IP address!!!")
@@ -61,6 +64,11 @@ def post(url, headers=None, proxies=None, params=None, cookies=None, json=None, 
 
     if headers == None:
         headers = {}
+
+    for k,v in headers.items():
+        if v == None or v == '':
+            headers[k] = ' '
+
     if type(data) == type({}):
         data = urllib.parse.urlencode(data)
 
