@@ -143,7 +143,7 @@ Contact email 2833844911@qq.com
    Link：https://pan.baidu.com/s/1NSEr8Q3SxeUNu7vG6jYZ9w
    Access Code：lrck
    OR
-   https://drive.google.com/file/d/1apHnsBal4Lzhs8iajqB4ay-DGtHstceO/view?usp=sharing
+   https://drive.google.com/file/d/1zSs0kSZO3NE_-OJDF7UkLRMBUR5Lc9PR/view?usp=sharing
 
 6. Loading the Image
    
