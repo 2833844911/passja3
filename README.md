@@ -140,8 +140,8 @@ Contact email 2833844911@qq.com
    sudo systemctl start docker
 ```
 4. Download the Image (cytlszf.tar)
-   Link：https://pan.baidu.com/s/1NSEr8Q3SxeUNu7vG6jYZ9w
-   Access Code：lrck
+   Link：https://pan.baidu.com/s/1DuhWBGCjTbvDEFZFjVLWpQ 
+   Access Code：0tbc
    OR
    https://drive.google.com/file/d/1zSs0kSZO3NE_-OJDF7UkLRMBUR5Lc9PR/view?usp=sharing
 
