@@ -142,7 +142,10 @@ Contact email 2833844911@qq.com
 4. Download the Image (cytlszf.tar)
    Link：https://pan.baidu.com/s/1NSEr8Q3SxeUNu7vG6jYZ9w
    Access Code：lrck
-5. Loading the Image
+   OR
+   https://drive.google.com/file/d/1apHnsBal4Lzhs8iajqB4ay-DGtHstceO/view?usp=sharing
+
+6. Loading the Image
    
    
 ```bash
