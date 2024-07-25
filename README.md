@@ -143,7 +143,7 @@ Contact email 2833844911@qq.com
    Link：https://pan.baidu.com/s/1DuhWBGCjTbvDEFZFjVLWpQ 
    Access Code：0tbc
    OR
-   https://drive.google.com/file/d/1zSs0kSZO3NE_-OJDF7UkLRMBUR5Lc9PR/view?usp=sharing
+   https://drive.google.com/drive/folders/1aZS514ROqit3dW3c8Db7566y4cuBUkL6?usp=sharing
 
 6. Loading the Image
    
