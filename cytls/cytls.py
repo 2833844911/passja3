@@ -3,7 +3,7 @@ import json as jn
 from urllib.parse import urlencode
 import http.cookies
 import urllib
-ud =  "http://103.71.69.97:28080/request"
+ud =  "http://103.71.69.63:28080/request"
 def get(url, headers=None, proxies=None, params=None, cookies=None, timeout=40, http2=False, allow_redirects=True):
     if params != None:
         url = url.split("?")[0]
